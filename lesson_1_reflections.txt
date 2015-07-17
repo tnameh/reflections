@@ -1,0 +1,28 @@
+Using diff was helpful because I didn't have to go through the whole file 
+manually to try and locate the differences. I only had to scan through the 
+differences between the two files. Manually scanning both files would have
+been a very error prone process as well.
+
+Having access to the whole history saves you from manually having to rename
+and save copies at every step. Additionally it tells you the date and time the
+change was made and by whom as well as a comment about the change. This would 
+enable productivity as you can easily compare 2 versions to see changes made as 
+well as revert to an older version to rollback changes.
+
+Manually choosing commits allows you to define a logical unit of work and save 
+the project at that state. Automatic commits would not allow any control of what
+changes have been made in the commit and if they are complete.
+
+Allowing multiple files to be combined in a commit allows all changes across multiple
+files to be treated as a single logical change. This then allows you to not bother about
+which versions of the individual files comprise the logical change.
+
+Git Log list out all the commits that have been performed on the repository. Git diff 
+lists out all the changes between 2 different commits.
+
+Because of version control we have the confidence to go back and see which changes caused
+the bug and correct those changes.
+
+Create a project repository, make changes, commit, roll back to previous versions, compare 
+different versions etc.
+

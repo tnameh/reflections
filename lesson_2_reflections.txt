@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When we initialize a repository a .git meta folder is created that contains 
+all the metadata for the repository. It does not add any files to the repository
+at this stage. We need to do this for the folder to be recognized as a git 
+repository.
