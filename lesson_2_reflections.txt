@@ -4,3 +4,9 @@ When we initialize a repository a .git meta folder is created that contains
 all the metadata for the repository. It does not add any files to the repository
 at this stage. We need to do this for the folder to be recognized as a git 
 repository.
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+The staging area contains the files that you would like to include in a commit. This
+allows you the possibility of adding different files for each commit.
