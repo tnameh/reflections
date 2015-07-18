@@ -26,3 +26,7 @@ which each branch diverged.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result of merging 2 branches is that the tip has 2 parents and all commits from the point
 of divergence are merged. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros - automatic merging takes away the manual effort and the error prone steps of merging.
+Cons - may have unintended side effects.
