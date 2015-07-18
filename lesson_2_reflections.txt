@@ -23,3 +23,6 @@ How do the diagrams help you visualize the branch structure?
 Diagrams allow us to see the parents of each tip and to trace back to the point at
 which each branch diverged.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging 2 branches is that the tip has 2 parents and all commits from the point
+of divergence are merged. 
