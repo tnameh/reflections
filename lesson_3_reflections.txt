@@ -12,3 +12,6 @@ Having a copy of the remote stored locally helps you compare your local to the r
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Collaborating without using Git or Github will be a completely manual process and would be error prone. Using Github allows easier collaboration.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When I do not want to break the master with my changes and only merge into master when I am sure that everything works fine. It is also useful for collaborating with others as we can then use pull requests to have our changes evaluated and only merged into master when required.
